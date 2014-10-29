@@ -16,6 +16,9 @@ namespace FacebookApps.Hello.UI
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/scripts").Include(
+                        "~/Scripts/facebook.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/site.css"));
 
